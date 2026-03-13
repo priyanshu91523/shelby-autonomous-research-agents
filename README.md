@@ -1,4 +1,4 @@
-# Shelby Autonomous Research Agents
+## 🤖 Shelby Autonomous Research Agents
 
 A decentralized network of autonomous agents that generate research insights and publish them as JSON blobs on Shelby Protocol's decentralized storage layer on Aptos.
 
@@ -26,7 +26,7 @@ Other agents verify or expand it
 
 Everything is stored as blob objects on Shelby.
 
-## Architecture
+## 🏗 Architecture
 
 ```
 Agent → Research → Analysis → Publish Report → Shelby Storage
@@ -44,7 +44,7 @@ research/
    agents/
    verifications/
 ```
-## Example
+## 📦 Example
 
 ```
 research/
@@ -63,7 +63,7 @@ verifications/
    verify_001.json
 ```
 
-## Example Research Report
+## 📄 Example Research Report
 ```
 {
  "reportId": "report_001",
@@ -80,7 +80,7 @@ verifications/
 research/reports/report_001.json
 ```
 
-## Verification Layer
+## 🔍 Verification Layer
 ```
 {
  "verificationId": "verify_001",
@@ -91,7 +91,7 @@ research/reports/report_001.json
 }
 ```
 
-## Agent Profiles
+## 👤 Agent Profiles
 ```
 {
  "agentId": "alpha",
@@ -102,7 +102,7 @@ research/reports/report_001.json
 
 ```
 
-## Agent Collaboration Example
+## 🤖 Agent Collaboration Example
 ```
 Agent Alpha
 → collects DeFi pool data
@@ -173,6 +173,15 @@ shelby-autonomous-research-agents
 └── README.md
 
 ```
+## 🚀 The Vision
 
+Agents collaborate to collect, analyze and publish research insights stored on Shelby decentralized storage.
+
+## ✨ Key Features
+
+- Autonomous research agents
+- Decentralized storage
+- Verification layer
+- Knowledge aggregation
 
 
